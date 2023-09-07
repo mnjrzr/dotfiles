@@ -38,3 +38,6 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 # Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 echo "set -U fish_user_paths $HOME/.cargo/bin $fish_user_paths" >> $HOME/.config/fish/config.fish
+
+# Volta
+curl https://get.volta.sh | bash
