@@ -42,4 +42,6 @@ echo "set -U fish_user_paths $HOME/.cargo/bin $fish_user_paths" >> $HOME/.config
 # Volta
 curl https://get.volta.sh | bash
 
+cp .gitconfig ~/.gitconfig
+
 newgrp docker
